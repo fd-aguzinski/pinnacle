@@ -4,5 +4,14 @@ html {
 
 body {
     min-height: 100%;
-    /*background: url('https://media3.giphy.com/media/jNCT0DtwX6GFG/giphy.gif');*/
+    background: url('http://wallsdesk.com/wp-content/uploads/2016/02/Black-abstract-Background.jpg');
+    background-size: cover;
+
+    /*background: url('http://www.wallpaperup.com/uploads/wallpapers/2015/10/03/813555/big_thumb_ae0263c70285d10415217b414277b2b5.jpg');*/
+
+    /*background: mediumslateblue;
+    background: -webkit-linear-gradient(left top, mediumslateblue, grey);
+    background: -o-linear-gradient(bottom right, mediumslateblue, grey);
+    background: -moz-linear-gradient(bottom right, mediumslateblue, grey);
+    background: linear-gradient(to bottom right, mediumslateblue, grey);*/
 }

@@ -1,17 +1,17 @@
 import React from 'react';
 import './App.css';
-import Login from './account/Login';
-import { Route, Link } from 'react-router-dom';
+import { Route } from 'react-router-dom';
 import AppHeader from './AppHeader';
-import SwagBase from './swag_base/SwagBase';
-import SignUp from './account/SignUp';
+import About from './about/About';
+import Contact from './contact/Contact';
+import Events from './events/Events';
 
 const App = () => (
     <div className="app">
         <AppHeader className="app__app-header" />
-        {/*<Route exact path="/" component={Login} />*/}
-        <Route exact path="/sign-up" component={SignUp} />
-        <Route exact path="/swag-base" component={SwagBase} />
+        <Route exact path="/about" component={About} />
+        <Route exact path="/contact" component={Contact} />
+        <Route exact path="/events" component={Events} />
     </div>
 );
 
