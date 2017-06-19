@@ -5,13 +5,13 @@ html {
 body {
     min-height: 100%;
     background: url('http://wallsdesk.com/wp-content/uploads/2016/02/Black-abstract-Background.jpg');
+    /*background: url('http://moheban-ahlebeit.com/images/Black-Abstract-Wallpaper/Black-Abstract-Wallpaper-3.jpg');*/
     background-size: cover;
+}
 
-    /*background: url('http://www.wallpaperup.com/uploads/wallpapers/2015/10/03/813555/big_thumb_ae0263c70285d10415217b414277b2b5.jpg');*/
-
-    /*background: mediumslateblue;
-    background: -webkit-linear-gradient(left top, mediumslateblue, grey);
-    background: -o-linear-gradient(bottom right, mediumslateblue, grey);
-    background: -moz-linear-gradient(bottom right, mediumslateblue, grey);
-    background: linear-gradient(to bottom right, mediumslateblue, grey);*/
+hr.faded {
+    background: white;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
