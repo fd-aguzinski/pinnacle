@@ -1,0 +1,79 @@
+.sign-up__body,
+.sign-up__footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up__footer {
+    text-align: center;
+}
+
+.sign-up__form {
+    border: 3px solid darksalmon;
+    box-shadow:3px 3px 5px crimson;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px;
+    width: 300px;
+    background: white;
+}
+
+.sign-up__form-password,
+.sign-up__form-fullname,
+.sign-up__form-email {
+    padding-top: 4px;
+}
+
+.sign-up__form-password-field,
+.sign-up__form-fullname-field,
+.sign-up__form-email-field {
+    display: block;
+    margin-bottom: 8px;
+    width: 100%;
+    font-size: 12px;
+}
+
+.sign-up__form-submit {
+    padding-top: 10px;
+    text-align: center;
+}
+
+.sign-up__form-submit-button {
+    width: 50%;
+    background-color:#b8e356;
+    -moz-border-radius:6px;
+    -webkit-border-radius:6px;
+    border-radius:6px;
+    border:1px solid #83c41a;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:12px;
+    padding:6px 24px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #86ae47;
+}
+
+.sign-up__form-submit-button:disabled {
+    opacity: 0.5;
+}
+
+.sign-up__link {
+    border: 3px solid darksalmon;
+    box-shadow:3px 3px 5px crimson;
+    border-radius: 8px;
+    margin-top: 8px;
+    width: 300px;
+    background: white;
+    font-size: 14px;
+    padding: 8px 20px;
+}
+
+.sign-up__form-label {
+    display: block;
+    margin-bottom: 4px;
+    text-align: left;
+    font-size: 14px;
+}

@@ -1,0 +1,35 @@
+.app-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #222;
+    color: white;
+    align-items: baseline;
+}
+
+.app-header-logo {
+    padding: 20px;
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+}
+
+.app-header-menu {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    padding: 0;
+    flex: 0 1 20%;
+}
+
+.app-header__menu-item {
+    padding-right: 0;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.app-header__menu-item-link:link,
+.app-header__menu-item-link:visited,
+.app-header__menu-item-link:hover,
+.app-header__menu-item-link:active {
+    color: white;
+    font-size: 20px;
+}

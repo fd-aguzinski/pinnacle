@@ -1,0 +1,38 @@
+.swag-requests-creator {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 24px;
+    color: whitesmoke;
+    background: #222;
+    border: 1px solid darksalmon;
+    box-shadow: 1px 1px 1px crimson;
+    border-radius: 8px;
+}
+
+.swag-requests-creator__swag-request-input-label {
+    font-size: 24px;
+    font-family: 'Dosis', sans-serif;
+}
+
+.swag-requests-creator__swag-request-textarea {
+    margin-top: 16px;
+    font-size: 16px;
+    border-radius: 3px;
+    height: 200px;
+    background: lightYellow;
+    padding: 4px;
+    color: #222;
+}
+
+.swag-requests-creator__submit-button {
+    cursor: pointer;
+    margin-top: 16px;
+    padding: 8px;
+    border: 1px solid white;
+    border-radius: 3px;
+    font-size: 32px;
+    background: #83c41a;
+    color: white;
+    font-family: 'Bungee Shade', cursive;
+}

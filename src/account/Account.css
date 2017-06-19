@@ -1,0 +1,30 @@
+.account {
+    display: flex;
+    flex-direction: column;
+    background: #222;
+    font-family: 'Dosis', sans-serif;
+    font-size: 14px;
+    padding: 8px 20px;
+    border: 1px solid pink;
+    box-shadow: 1px 1px 1px yellow;
+    border-radius: 8px;
+}
+
+.account__user-name {
+    font-size: 16px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+.account__user-email {
+    color: lightgrey;
+    margin-bottom: 12px;
+}
+
+.account__followers {
+    color: white;
+}
+
+.account__followers-count {
+    color: whitesmoke;
+}

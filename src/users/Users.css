@@ -1,0 +1,33 @@
+.users {
+    font-family: 'Dosis', sans-serif;
+}
+
+.users__title {
+    font-size: 16px;
+    background: #222;
+    border: 1px solid darksalmon;
+    border-radius: 8px;
+    box-shadow: 1px 1px 1px crimson;
+    color: whitesmoke;
+    padding: 4px 12px;
+}
+
+.users__list {
+    width: 100%;
+    padding: 0;
+}
+
+.users__list-item {
+    display: block;
+    margin: 0 0 12px;
+}
+
+.users__folow-user-button {
+    cursor: pointer;
+    background: rgba(255, 255, 255, .9);
+    padding: 4px 12px;
+    border: 1px solid darksalmon;
+    box-shadow: 1px 1px 1px crimson;
+    border-radius: 8px;
+    color: crimson;
+}
