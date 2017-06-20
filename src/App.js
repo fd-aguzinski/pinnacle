@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import { Route } from 'react-router-dom';
-import AppHeader from './AppHeader';
+import AppHeader from './header/AppHeader';
 import About from './about/About';
 import Contact from './contact/Contact';
 import Events from './events/Events';
