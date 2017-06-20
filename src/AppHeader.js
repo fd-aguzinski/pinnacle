@@ -15,7 +15,7 @@ class AppHeader extends Component {
                 <div className="app-header-logo">
                     Pinnacle
                 </div>
-                <ul className="app-header-menu">
+                <ul className="app-header-menu app-header-menu--large">
                     <li className="app-header__menu-item">
                         <Link className="app-header__menu-item-link" to="/">Home</Link>
                     </li>
@@ -25,10 +25,10 @@ class AppHeader extends Component {
                     <li className="app-header__menu-item">
                         <Link className="app-header__menu-item-link" to="/about">About</Link>
                     </li>
-                    <li className="app-header__menu-item">
-                        <Link className="app-header__menu-item-link" to="/contact">Contact Us</Link>
-                    </li>
                 </ul>
+                <div className="app-header-menu app-header-menu--mobile">
+                    <i className="fa fa-bars fa-2x"></i>
+                </div>
             </div>
         );
     };

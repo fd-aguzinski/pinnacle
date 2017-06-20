@@ -17,7 +17,11 @@
     list-style: none;
     justify-content: space-around;
     padding-right: 20px;
-    flex: 0 1 20%;
+    flex: 0 1 50%;
+}
+
+.app-header-menu--mobile {
+    display: none;
 }
 
 .app-header__menu-item {
@@ -33,4 +37,27 @@
     font-size: 24px;
     text-decoration: none;
     font-family: 'Impact', cursive;
+}
+
+@media (min-width: 700px) {
+    .app-header-menu {
+        flex-basis: 35%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .app-header-menu {
+        flex-basis: 25%;
+    }
+}
+
+@media (max-width: 600px) {
+    .app-header-menu {
+        display: none;
+    }
+
+    .app-header-menu--mobile {
+        display: flex;
+        justify-content: flex-end;
+    }
 }
