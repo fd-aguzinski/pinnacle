@@ -1,0 +1,35 @@
+.app-header-menu {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    padding-right: 20px;
+    flex: 0 1 50%;
+}
+
+.app-header-menu--mobile,
+.app-header-menu--mobile-div,
+.app-header-menu__dropdown--mobile {
+    display: none;
+}
+
+@media (min-width: 800px) {
+    .app-header-menu {
+        flex-basis: 25%;
+    }
+}
+
+@media (max-width: 600px) {
+    .app-header-menu {
+        display: none;
+    }
+
+    .app-header-menu--mobile-div {
+        display: block;
+    }
+
+    .app-header-menu--mobile {
+        display: flex;
+        justify-content: flex-end;
+        cursor: pointer;
+    }
+}
